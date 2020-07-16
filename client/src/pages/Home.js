@@ -25,19 +25,20 @@ export const Home = () => {
             style={{
               padding: "2rem",
               border: "5px solid #ff8b21",
-              margin: "30px",
+              margin: "auto",
+              width: "50%"
             }}
           >
             <img src="https://img.icons8.com/doodle/48/000000/crown--v1.png" />
             <div class="card-image">
-              <figure class="image is-128x128">
-                <img
-                  class="is-rounded"
-                  src="/images/seto_kaiba.png"
-                  alt="Placeholder image"
-                  style={{ width: "30%" }}
-                />
-              </figure>
+
+              <img
+                class="is-rounded"
+                src="/images/seto_kaiba.png"
+                alt="Placeholder image"
+                style={{ width: "30%" }}
+              />
+
             </div>
             <div class="card-content">
               <div class="media">
@@ -49,7 +50,7 @@ export const Home = () => {
                     Wins : 1
                   </p>
                   <p class="subtitle is-4" style={{ color: "#e00000" }}>
-                    Losees : 0
+                    Losses : 0
                   </p>
                 </div>
               </div>
@@ -61,17 +62,19 @@ export const Home = () => {
             style={{
               padding: "2rem",
               border: "5px solid #ff8b21",
-              margin: "30px",
+              margin: "30px auto",
+              width: "50%"
+
             }}
           >
             <div class="card-image">
-              <figure class="image is-4by3">
-                <img
-                  src="/images/pegasus.jpg"
-                  alt="Placeholder image"
-                  style={{ width: "30%" }}
-                />
-              </figure>
+
+              <img
+                src="/images/pegasus.jpg"
+                alt="Placeholder image"
+                style={{ width: "30%" }}
+              />
+
             </div>
             <div class="card-content">
               <div class="media">
@@ -83,7 +86,7 @@ export const Home = () => {
                     Wins : 0
                   </p>
                   <p class="subtitle is-4" style={{ color: "#e00000" }}>
-                    Losees : 1
+                    Losses : 1
                   </p>
                 </div>
               </div>
@@ -95,17 +98,19 @@ export const Home = () => {
             style={{
               padding: "2rem",
               border: "5px solid #ff8b21",
-              margin: "30px",
+              margin: "auto",
+              width: "50%"
+
             }}
           >
             <div class="card-image">
-              <figure class="image is-4by3">
-                <img
-                  src="/images/joey.png"
-                  alt="Placeholder image"
-                  style={{ width: "30%" }}
-                />
-              </figure>
+
+              <img
+                src="/images/joey.png"
+                alt="Placeholder image"
+                style={{ width: "30%" }}
+              />
+
             </div>
             <div class="card-content">
               <div class="media">
@@ -117,7 +122,7 @@ export const Home = () => {
                     Wins : 0
                   </p>
                   <p class="subtitle is-4" style={{ color: "#e00000" }}>
-                    Losees : 1
+                    Losses : 1
                   </p>
                 </div>
               </div>

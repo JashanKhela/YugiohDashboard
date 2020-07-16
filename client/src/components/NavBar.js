@@ -27,7 +27,7 @@ function NavBar() {
           <Link onClick={handleClick} className={"navbar-item"} to="/">
             Leaderboard
           </Link>
-          <Link onClick={handleClick} className={"navbar-item"} to="/inventory">
+          <Link onClick={handleClick} className={"navbar-item"} to="/duelarena">
             Duel Arena
           </Link>
           <Link onClick={handleClick} className={"navbar-item"} to="/recipes">
