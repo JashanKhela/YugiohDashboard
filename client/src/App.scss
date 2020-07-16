@@ -1,0 +1,36 @@
+@import "./Global.scss";
+
+$gold: #fec255;
+$black: black;
+$white: #eeeeee;
+$red: #b00000;
+$grey: #2b303a;
+
+.logo {
+  font-weight: bold;
+  font-size: xx-large !important;
+  color: $red !important;
+}
+
+.navbar-item {
+  color: $black !important;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navbar-item:hover {
+  color: $white !important;
+}
+
+.footer {
+  background: #2b303a;
+  padding: 2rem;
+}
+
+.footer p {
+  color: $red;
+}
+
+.footer strong {
+  color: $gold;
+}

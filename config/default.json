@@ -1,0 +1,3 @@
+{
+  "MONGO_URI": "mongodb+srv://admin:admin@yugiohdashboard.yl6cf.mongodb.net/YugiohDashboard?retryWrites=true&w=majority"
+}
